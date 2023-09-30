@@ -1,0 +1,16 @@
+POST http://localhost:3000/api/v1/auth/register
+
+{
+    "name": "Rivan",
+    "email": "test@gmail.com",
+    "password": "123456"
+}
+
+### login user
+
+POST http://localhost:3000/api/v1/auth/login
+
+{
+    "email": "test@gmail.com",
+    "password": "123456"
+}
